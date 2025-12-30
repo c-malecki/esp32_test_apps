@@ -1,0 +1,39 @@
+# files produced by the build system
+build/
+build_*_*/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components
+# other specific generated files
+*.pyc
+*.log
+*.o
+*.d
+*.elf
+*.bin
+*.map
+*.hex
+*.lst
+*.su
+*.gh
+# python cache
+.pytest_cache/
+__pycache__/
+# project dir
+.vscode
+.clangd
+.clang-format
+.cache
+.devcontainer
+notes.md
+html
+# OS specific
+.DS_Store
+.directory
+# idf-ci build run output
+build_summary_*.xml
+app_info_*.txt
+size_info_*.txt
+# pytest-embedded log folder
+pytest_embedded_log/
