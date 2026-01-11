@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.22)
 
 set(EXTRA_COMPONENT_DIRS
     ${CMAKE_SOURCE_DIR}/../../lib
@@ -7,4 +7,4 @@ set(EXTRA_COMPONENT_DIRS
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 idf_build_set_property(MINIMAL_BUILD ON)
-project(rgb_led)
+project(temp_humid)
